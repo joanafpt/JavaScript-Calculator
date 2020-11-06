@@ -1,0 +1,12 @@
+.key{
+    padding: 0;
+    width: 12vh;
+    height: 12vh; 
+    border: 0.1rem solid white;
+    color: #474949;
+    background-color: whitesmoke;  
+  }
+  .double-key{
+    width: 50%;
+    background-color:#F97627;
+  }  

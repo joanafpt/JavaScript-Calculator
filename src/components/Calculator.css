@@ -1,0 +1,84 @@
+.calculator{
+  width: 100%;
+}
+
+/*.key{
+  padding: 0;
+  width: 12vh;
+  height: 12vh; 
+  border: 0.1rem solid white;
+  color: #474949;
+  background-color: whitesmoke;  
+}*/
+  
+.colu1{
+  background-color: white;
+  border: 1px solid #474949; 
+}  
+@media (min-width: 1281px) { 
+  .App{
+    /* background-color: lime;*/
+  }
+ 
+}
+   
+@media (min-width: 1025px) and (max-width: 1280px) { 
+  .App{
+      /*background-color: lightsalmon;*/
+  }
+ 
+}
+  
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .App{
+    /*background-color: yellow;*/
+  }
+
+}
+  
+  
+@media (min-width: 481px) and (max-width: 767px) { 
+  .App{
+    /* background-color: paleturquoise;*/
+  }
+ 
+}
+  
+  
+@media (min-width: 320px) and (max-width: 480px) { 
+    .App{
+     /* background-color: red;*/
+    }  
+  
+    .key{  
+      width: 16vw;
+      height: 16vw;
+    }
+    .display-digits{
+      height: 5vh;
+       border: 0.2vw solid black;
+   }
+   
+}
+  
+@media  (max-width: 319px) { 
+    .App{
+      background-color: purple;
+    }     
+    .key{
+      font-size: 5vw;
+      width: 16vw;
+      height: 16vw;
+    }
+    .display-digits{
+      height: 5vh;
+       border: 0.2vw solid black;
+   }
+}
+/*
+.double-key{
+  width: 50%;
+  background-color:#F97627;
+}*/
+  
+  

@@ -1,0 +1,14 @@
+.calculator-display{
+    text-align: right;
+    color: whitesmoke;   
+  }
+  .display-digits{
+    width: 100%;
+    background-color: white;
+    height: 10vh;
+    border: 0.1vw solid lightslategrey;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    color: lightslategrey;
+    font-size: calc(15px + 2vmin);
+  }
